@@ -1,4 +1,4 @@
-# live-transcription-gateway
+# Live Speech-Audio Transcription Gateway
 
 A small, complete example of real-time audio transcription: a browser captures microphone
 audio, streams it over a WebSocket to a Node gateway, the gateway forwards it to a
