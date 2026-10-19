@@ -3,8 +3,7 @@
 A small, complete example of real-time audio transcription: a browser captures microphone
 audio, streams it over a WebSocket to a Node gateway, the gateway forwards it to a
 speech-to-text (STT) engine, and partial/final transcripts flow back and render live in a
-React UI. I built this to learn the actual mechanics of low-latency audio streaming - framing,
-backpressure, reconnects, provider abstraction - rather than just wiring up an SDK.
+React UI. 
 
 It runs completely offline out of the box. No API key, no Docker, no paid service required to
 try it, build it, or run its test suite.
